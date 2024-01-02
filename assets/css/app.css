@@ -1719,7 +1719,7 @@ nav .menu-item-has-children .submenu li a {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #1B1C1E;
+  color: #ec1c24;
   padding: 10px;
   display: block;
 }
@@ -1890,7 +1890,7 @@ nav .navbar-toggler:focus {
   margin-right: 10px;
 }
 .footer .detail-blog .footer-detail .contact-detail a:hover {
-  color: #2C2D2F;
+  color:#ec1c24 ;
 }
 .footer .detail-blog .footer-detail .light-text {
   font-weight: 400;
@@ -1936,7 +1936,7 @@ nav .navbar-toggler:focus {
   color: #FAFAFA;
 }
 .footer .detail-blog .footer-detail .social-link li a:hover {
-  color: #2C2D2F;
+  color:#ec1c24 ;
 }
 .footer .detail-blog .footer-detail .copuright-text p {
   font-weight: 400;
@@ -1957,7 +1957,7 @@ nav .navbar-toggler:focus {
   }
 }
 .footer .detail-blog .footer-detail .copuright-text p a {
-  color: #1B1C1E;
+  color: #ec1c24;
 }
 .footer .detail-blog .footer-detail .copuright-text p a:hover {
   color: #FAFAFA;
@@ -1998,18 +1998,18 @@ nav .navbar-toggler:focus {
   font-weight: 700;
   line-height: 120%;
   text-align: center;
-  color: #2C2D2F;
+  color:- #ec1c24  ;
   margin-bottom: 10px;
 }
 .banner h2 b {
-  color: #2CB9AD;
+  color:#272262  ;
 }
 .banner p {
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
   letter-spacing: 0.05em;
-  color: #2C2D2F;
+  color:#080808;
   margin-bottom: 30px;
 }
 @media (max-width: 768px) {
