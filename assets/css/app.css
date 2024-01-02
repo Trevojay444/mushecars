@@ -2238,12 +2238,12 @@ nav .navbar-toggler:focus {
   }
 }
 .item-list .detail-block .detail p b {
-  color: #2CB9AD;
+  color: #272262  ;
 }
 .item-list .detail-block .detail p i {
   font-size: 28px;
   padding: 0 4px;
-  color: #2CB9AD;
+  color: #272262 ;
 }
 @media only screen and (min-width: 1199px) and (max-width: 1900px) {
   .item-list .detail-block .detail p i {
@@ -2350,7 +2350,7 @@ nav .navbar-toggler:focus {
 
 @media (max-width: 768px) {
   .book .book-area-sec {
-    background: #2CB9AD;
+    background: #272262 ;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2360,7 +2360,7 @@ nav .navbar-toggler:focus {
   }
 }
 .book .book-area-sec .book-area {
-  background: #2CB9AD;
+  background:#272262  ;
   display: flex;
   align-items: center;
 }
@@ -2504,7 +2504,7 @@ nav .navbar-toggler:focus {
   }
 }
 .book .book-area-sec .book-area .area-block.st-2 h5 {
-  color: #2CB9AD;
+  color: #272262 ;
   z-index: 50;
   position: relative;
 }
@@ -2524,7 +2524,7 @@ nav .navbar-toggler:focus {
   }
 }
 .book .book-area-sec .book-area .area-block.st-2 a:hover {
-  color: #2CB9AD;
+  color:#272262  ;
 }
 @media (max-width: 768px) {
   .book .book-area-sec .book-area .area-block:nth-child(3).st-2 {
@@ -2645,7 +2645,7 @@ nav .navbar-toggler:focus {
   }
 }
 .booking-area .booking-detail .detail.st-2 p b {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 .booking-area .booking-detail .detail h6 {
   font-weight: 400;
@@ -2703,7 +2703,7 @@ nav .navbar-toggler:focus {
 }
 .booking-area .booking-detail .detail span i {
   font-size: 38px;
-  color: #2CB9AD;
+  color: #272262 ;
   padding-left: 10px;
 }
 @media only screen and (min-width: 1199px) and (max-width: 1900px) {
@@ -2998,7 +2998,7 @@ nav .navbar-toggler:focus {
   transition: all 0.5s ease-in-out;
 }
 .categories .categorie-block .screw-image:hover img {
-  border: 4px solid #2CB9AD;
+  border: 4px solid #272262 ;
   transition: all 0.5s ease-in-out;
 }
 .categories .categorie-block .screw-image:hover::before {
@@ -3256,7 +3256,7 @@ nav .navbar-toggler:focus {
 }
 .review .review-slider .item .review-block .review-detail .stars i {
   font-size: 30px;
-  color: #2CB9AD;
+  color:#272262  ;
   margin-right: 10px;
 }
 @media (max-width: 490px) {
