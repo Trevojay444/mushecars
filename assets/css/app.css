@@ -1964,7 +1964,7 @@ nav .navbar-toggler:focus {
 }
 
 .banner {
-  background: url(../media/bg/Hero\ 2.png);
+  background: url(../media/bg/Hero.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   padding: 140px 0 100px 0;
@@ -1973,7 +1973,7 @@ nav .navbar-toggler:focus {
 }
 @media (max-width: 992px) {
   .banner {
-    background: url(../media/bg/banner-bg-2.png);
+    background: url(../media/bg/Hero.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 1300px;
