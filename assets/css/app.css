@@ -308,7 +308,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 body.dark {
-  background: #1B1C1E;
+  background: #ec1c24;
 }
 
 h1,
@@ -348,7 +348,7 @@ h4,
 h5,
 h6 {
   font-weight: 750;
-  color: #1B1C1E;
+  color:#ec1c24 ;
 }
 
 p {
@@ -929,7 +929,7 @@ strong {
 }
 
 .color-dark-2 {
-  color: #1B1C1E;
+  color: #ec1c24;
 }
 
 .bg-dark-2 {
@@ -937,11 +937,11 @@ strong {
 }
 
 .color-dark-3 {
-  color: #0D0D0D;
+  color: #ec1c24;
 }
 
 .bg-dark-3 {
-  background-color: #0D0D0D;
+  background-color: #ec1c24;
 }
 
 .color-white {
@@ -981,7 +981,7 @@ strong {
 }
 
 .primary-hover:hover {
-  color: #1B1C1E;
+  color: #ec1c24;
 }
 
 .secondery-hover:hover {
@@ -1375,7 +1375,7 @@ strong {
   line-height: 34px;
   background: transparent;
   opacity: 0;
-  color: #0D0D0D;
+  color:#ec1c24;
   padding: 0 15px;
   border: none;
   border-radius: 6px;
@@ -1520,7 +1520,7 @@ strong {
   font-weight: 700;
   font-size: 57px;
   line-height: 120%;
-  color: #1B1C1E;
+  color: #ec1c24;
   margin-bottom: 24px;
   position: relative;
 }
@@ -1758,7 +1758,7 @@ nav .navbar-toggler:focus {
 }
 @media (max-width: 1199px) {
   nav .navbar-collapse {
-    background: #0D0D0D;
+    background:#ec1c24 ;
     padding: 15px 20px;
     position: absolute;
     right: 0;
