@@ -49,7 +49,7 @@ ol.list-style {
 
 ul.list-style li::marker,
 ol.list-style li::marker {
-  color: #2CB9AD;
+  color:#272262  ;
 }
 
 .unstyled {
@@ -159,10 +159,10 @@ label.error {
   color: #1B1C1E;
 }
 .pagination-cus li .link.active {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 .pagination-cus li .link:hover {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 
 .points li {
@@ -177,7 +177,7 @@ label.error {
   position: absolute;
   left: 0;
   top: 10px;
-  background: #2CB9AD;
+  background: #272262 ;
   transform: rotate(45deg);
 }
 
@@ -194,7 +194,7 @@ label.error {
   font-size: 38px !important;
   line-height: 35px !important;
   padding: 8px !important;
-  color: #2CB9AD !important;
+  color:  #272262 !important;
   top: -102px !important;
   z-index: 10 !important;
 }
@@ -247,7 +247,7 @@ label.error {
   font-size: 38px !important;
   line-height: 35px !important;
   padding: 8px !important;
-  color: #2CB9AD !important;
+  color:  #272262 !important;
   top: -102px !important;
   z-index: 10 !important;
 }
@@ -365,7 +365,7 @@ a {
   color: unset;
 }
 a:hover {
-  color: #2CB9AD;
+  color:#272262  ;
 }
 
 span {
@@ -905,11 +905,11 @@ strong {
     Helper Classes
 -------------------------*/
 .color-primary {
-  color: #2CB9AD;
+  color:#272262  ;
 }
 
 .color-primary {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 
 .bg-white {
@@ -917,7 +917,7 @@ strong {
 }
 
 .bg-primary {
-  background-color: #2CB9AD !important;
+  background-color: #272262  !important;
 }
 
 .color-dark {
@@ -1234,7 +1234,7 @@ strong {
   margin: 0;
 }
 .social-icon li a {
-  background: #2CB9AD;
+  background: #272262 ;
   width: 64px;
   height: 64px;
   border-radius: 50px;
@@ -1250,19 +1250,19 @@ strong {
   font-size: 32px;
 }
 .social-icon li a:hover {
-  background: #2CB9AD;
+  background:#272262  ;
 }
 .social-icon li a:hover i {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 .social-icon li a:hover svg {
-  stroke: #2CB9AD;
+  stroke: #272262 ;
 }
 .social-icon.st-2 {
   justify-content: center;
 }
 .social-icon.st-2 li a {
-  background: #2CB9AD;
+  background: #272262 ;
 }
 .social-icon.st-2 li a i {
   color: #F0F2F4;
@@ -1271,7 +1271,7 @@ strong {
   background: #F0F2F4;
 }
 .social-icon.st-2 li a:hover i {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 
 .border-white {
@@ -1287,7 +1287,7 @@ strong {
 }
 
 .color-hover:hover {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 
 /*-------------------------
@@ -1303,7 +1303,7 @@ strong {
   line-height: 50px;
   font-size: 100px;
   padding: 20px 0;
-  background: #2CB9AD;
+  background:#272262  ;
   color: #FAFAFA;
   text-align: center;
   opacity: 0;
@@ -1629,7 +1629,7 @@ strong {
   fill: rgb(126, 126, 126);
 }
 #preloader .loader #tire {
-  fill: #2CB9AD;
+  fill: #272262 ;
 }
 #preloader .loader .road {
   position: absolute;
@@ -1637,7 +1637,7 @@ strong {
   width: 50%;
   height: 10px;
   border-radius: 5em;
-  background-color: #2CB9AD;
+  background-color: #272262 ;
   animation: road-move 3s linear infinite;
 }
 
@@ -1655,7 +1655,7 @@ strong {
   }
 }
 nav a.active {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 @media (max-width: 1199px) {
   nav .navbar-brand {
@@ -1724,10 +1724,10 @@ nav .menu-item-has-children .submenu li a {
   display: block;
 }
 nav .menu-item-has-children .submenu li a.active {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 nav .menu-item-has-children .submenu li a:hover {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 nav .menu-item-has-children:hover .submenu {
   opacity: 1;
@@ -1814,14 +1814,14 @@ nav .navbar-toggler:focus {
   color: #2C2D2F;
 }
 .header nav .navbar-nav .menu-item-has-children a.active {
-  color: #2CB9AD;
+  color:#272262  ;
   font-weight: 800;
 }
 .header nav .navbar-nav .menu-item-has-children a:hover {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 .header nav .navbar-nav .menu-item-has-children a:hover svg {
-  stroke: #2CB9AD;
+  stroke: #272262 ;
 }
 
 .footer .footer-logo {
@@ -3387,7 +3387,7 @@ nav .navbar-toggler:focus {
   }
 }
 .about .card .card-header .nav .nav-item a.active {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 .about .card .card-header .nav .nav-item a.active::before {
   content: "";
@@ -3396,7 +3396,7 @@ nav .navbar-toggler:focus {
   bottom: -12px;
   width: 50%;
   height: 3px;
-  background: #2CB9AD;
+  background: #272262 ;
 }
 .about .card .card-header .nav .nav-item:last-child a {
   padding: 0;
@@ -3546,7 +3546,7 @@ nav .navbar-toggler:focus {
   }
 }
 .contact .info-block .information-section .information-block a:hover {
-  color: #2CB9AD;
+  color: #272262 ;
 }
 
 /*# sourceMappingURL=app.css.map */
