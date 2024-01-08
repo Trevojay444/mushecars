@@ -3605,7 +3605,7 @@ nav .navbar-toggler:focus {
 }
 .our-team .social li a:hover{
   background: #fff;
-  color: #000;
+  color: #ec1c24 ;
 }
 .our-team .team-content{
   width: 100%;
@@ -3618,7 +3618,7 @@ nav .navbar-toggler:focus {
   z-index: -1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .team-content{ border: 2px dotted #00adae; }
+.our-team:hover .team-content{ border: 2px dotted #272262 ; }
 .our-team .team-info{
   width: 100%;
   color: #464646;
@@ -3633,7 +3633,7 @@ nav .navbar-toggler:focus {
   margin: 0 0 5px 0;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .title{ color: #00adae; }
+.our-team:hover .title{ color: #272262 ; }
 .our-team .post{
   display: block;
   font-size: 14px;
