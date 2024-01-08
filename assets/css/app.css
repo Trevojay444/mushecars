@@ -3678,10 +3678,13 @@ nav .navbar-toggler:focus {
   margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  .team-container {
+    justify-content: center;
+  }
 
-
-@media (max-width: 768px) {
-  .team-container .our-team .pic img {
-    max-width: 100%;
+  .our-team {
+    flex-basis: 100%;
   }
 }
+
