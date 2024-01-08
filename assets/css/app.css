@@ -3549,30 +3549,36 @@ nav .navbar-toggler:focus {
   color: #272262 ;
 }
 
-.our-team{
+.our-team {
   text-align: center;
   margin-bottom: 100px;
   z-index: 1;
   position: relative;
 }
-.our-team .pic{
+
+.our-team .pic {
   border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
-.our-team .pic:after{
+
+.our-team .pic:after {
   content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .pic:after{ opacity: 1; }
+
+.our-team:hover .pic:after {
+  opacity: 1;
+}
+
 .our-team .pic img {
   width: 100%;
   height: 100%;
@@ -3580,7 +3586,7 @@ nav .navbar-toggler:focus {
   object-position: center;
 }
 
-.our-team .social{
+.our-team .social {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -3592,9 +3598,16 @@ nav .navbar-toggler:focus {
   z-index: 1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .social{ opacity: 1; }
-.our-team .social li{ display: inline-block; }
-.our-team .social li a{
+
+.our-team:hover .social {
+  opacity: 1;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
   display: block;
   width: 30px;
   height: 30px;
@@ -3606,11 +3619,13 @@ nav .navbar-toggler:focus {
   margin-right: 10px;
   transition: all 0.5s ease 0s;
 }
-.our-team .social li a:hover{
+
+.our-team .social li a:hover {
   background: #fff;
   color: #000;
 }
-.our-team .team-content{
+
+.our-team .team-content {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -3621,27 +3636,37 @@ nav .navbar-toggler:focus {
   z-index: -1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .team-content{ border: 4px dotted #ec1c24 ; }
-.our-team .team-info{
+
+.our-team:hover .team-content {
+  border: 4px dotted #ec1c24;
+}
+
+.our-team .team-info {
   width: 100%;
   color: #464646;
   position: absolute;
   bottom: 12px;
   left: 0;
 }
-.our-team .title{
+
+.our-team .title {
   font-size: 20px;
   font-weight: 600;
   color: #ec1c24;
   margin: 0 0 5px 0;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .title{ color:#272262 ; }
-.our-team .post{
+
+.our-team:hover .title {
+  color: #272262;
+}
+
+.our-team .post {
   display: block;
   font-size: 14px;
   color: #464646;
 }
+
 .team-container {
   display: flex;
   flex-wrap: wrap;
@@ -3651,14 +3676,14 @@ nav .navbar-toggler:focus {
 .our-team {
   flex-basis: calc(25% - 20px); /* Adjust the width as per your needs */
   margin-bottom: 20px;
-  margin-top: 10px;
 }
+
 @media (max-width: 767px) {
   .team-container {
     justify-content: center;
   }
-  
+
   .our-team {
     flex-basis: 100%;
   }
-}   
+}
