@@ -3642,5 +3642,19 @@ nav .navbar-toggler:focus {
 .team-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.our-team {
+  flex-basis: calc(35% - 20px); /* Adjust the width as per your needs */
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .team-container {
+    justify-content: center;
+  }
+  
+  .our-team {
+    flex-basis: 100%;
+  }
 }
