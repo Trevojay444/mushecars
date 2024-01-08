@@ -3555,11 +3555,13 @@ nav .navbar-toggler:focus {
   z-index: 1;
   position: relative;
 }
+
 .our-team .pic{
   border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
+
 .our-team .pic:after{
   content: "";
   width: 100%;
@@ -3572,11 +3574,16 @@ nav .navbar-toggler:focus {
   left: 0;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .pic:after{ opacity: 1; }
+
+.our-team:hover .pic:after{
+  opacity: 1;
+}
+
 .our-team .pic img{
   width: 100%;
   height: auto;
 }
+
 .our-team .social{
   width: 100%;
   padding: 0;
@@ -3589,8 +3596,15 @@ nav .navbar-toggler:focus {
   z-index: 1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .social{ opacity: 1; }
-.our-team .social li{ display: inline-block; }
+
+.our-team:hover .social{
+  opacity: 1;
+}
+
+.our-team .social li{
+  display: inline-block;
+}
+
 .our-team .social li a{
   display: block;
   width: 30px;
@@ -3603,10 +3617,12 @@ nav .navbar-toggler:focus {
   margin-right: 10px;
   transition: all 0.5s ease 0s;
 }
+
 .our-team .social li a:hover{
   background: #fff;
   color: #000;
 }
+
 .our-team .team-content{
   width: 100%;
   height: 100%;
@@ -3618,7 +3634,11 @@ nav .navbar-toggler:focus {
   z-index: -1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .team-content{ border: 2px dotted #00adae; }
+
+.our-team:hover .team-content{
+  border: 2px dotted #00adae;
+}
+
 .our-team .team-info{
   width: 100%;
   color: #464646;
@@ -3626,6 +3646,7 @@ nav .navbar-toggler:focus {
   bottom: 12px;
   left: 0;
 }
+
 .our-team .title{
   font-size: 20px;
   font-weight: 600;
@@ -3633,28 +3654,50 @@ nav .navbar-toggler:focus {
   margin: 0 0 5px 0;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .title{ color: #00adae; }
+
+.our-team:hover .title{
+  color: #00adae;
+}
+
 .our-team .post{
   display: block;
   font-size: 14px;
   color: #464646;
 }
+
 .team-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .our-team {
   flex-basis: calc(25% - 20px); /* Adjust the width as per your needs */
   margin-bottom: 20px;
 }
+
 @media (max-width: 767px) {
   .team-container {
     justify-content: center;
   }
   
   .our-team {
-    flex-basis: 100%;
+    flex-basis: calc(50% - 20px); /* Adjust the width as per your needs */
+  }
+  
+  .our-team .team-content {
+    bottom: -50px; /* Adjust the position as per your needs */
+  }
+}
+
+@media (max-width: 500px) {
+  .our-team {
+    flex-basis: calc(100% - 20px); /* Adjust the width as per your needs */
+  }
+  
+  .our-team .team-content {
+    bottom: -30px; /* Adjust the position as per your needs */
   }
 }
