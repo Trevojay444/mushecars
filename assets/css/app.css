@@ -3618,7 +3618,7 @@ nav .navbar-toggler:focus {
   z-index: -1;
   transition: all 0.5s ease 0s;
 }
-.our-team:hover .team-content{ border: 2px dotted #272262 ; }
+.our-team:hover .team-content{ border: 4px dotted #272262 ; }
 .our-team .team-info{
   width: 100%;
   color: #464646;
