@@ -3573,10 +3573,13 @@ nav .navbar-toggler:focus {
   transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic:after{ opacity: 1; }
-.our-team .pic img{
+.our-team .pic img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
+
 .our-team .social{
   width: 100%;
   padding: 0;
