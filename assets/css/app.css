@@ -3646,7 +3646,7 @@ nav .navbar-toggler:focus {
 }
 
 .our-team {
-  flex-basis: calc(35% - 20px); /* Adjust the width as per your needs */
+  flex-basis: calc(25% - 20px); /* Adjust the width as per your needs */
   margin-bottom: 20px;
 }
 @media (max-width: 767px) {
