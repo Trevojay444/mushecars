@@ -3687,3 +3687,9 @@ nav .navbar-toggler:focus {
     flex-basis: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .team-container .our-team .pic img {
+    max-width: 100%;
+  }
+}
