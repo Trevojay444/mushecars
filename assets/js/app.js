@@ -1,6 +1,6 @@
-// Template Name: DriveLux
+// Template Name: Mushe
 // Template URL: https://uiparadox.co.uk/templates/drivelux/
-// Description: DriveLux - Car Rental HTML5 Bootstrap website Template
+// Description: Mushe
 // Version: 1.0.0
 
 (function (window, document, $, undefined) {
