@@ -248,7 +248,7 @@
                                     <p>Grand Total</p>
                                     <p id="grandTotal">$00.00</p>
                                 </div>
-                                <a href="" class="dark-btn w-100">Confirm Booking</a>
+                                <a href="#" class="dark-btn w-100" onclick="sendEmail()">Confirm Booking</a>
                             </div>
                         </div>
                     </div>
@@ -329,6 +329,23 @@
                 document.getElementById("grandTotal").textContent = "$" + grandTotal.toFixed(2);
             }
         </script>
+
+<script>
+    function sendEmail() {
+      // Replace 'designated_email@example.com' with the actual email address
+      var email = 'designated_email@example.com';
+  
+      // You can customize the email subject and message
+      var subject = 'Booking Confirmation';
+      var message = 'Your booking has been confirmed.';
+  
+      // Create a mailto URL with the email details
+      var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
+  
+      // Open the mail client to send the email
+      window.location.href = mailtoLink;
+    }
+  </script>
 </body>
 
 </html>
