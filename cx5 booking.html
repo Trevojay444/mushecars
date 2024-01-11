@@ -176,86 +176,89 @@
             <!-- booking Area end -->
 
            <!-- booking total Area start -->
-           <div class="booking-total pb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-10 offset-xxl-1">
-                        <div class="detail-block">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <form method="post" action="./index.html" class="contact-form mb-24 mb-xl-0">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Your Phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="date" class="form-control" id="date" name="date" required placeholder="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="date" class="form-control" id="date2" name="date2" required placeholder="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group mb-24">
-                                                    <input type="text" class="form-control" id="location" name="location" required placeholder="Pickup location">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <textarea class="form-control" required name="message" placeholder="Your Message"></textarea>
-                                                </div>
-                                            </div>
+<div class="booking-total pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-10 offset-xxl-1">
+                <div class="detail-block">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form method="post" action="./index.html" class="contact-form mb-24 mb-xl-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
                                         </div>
-                                        <div id="message" class="alert-msg"></div>
-                                    </form>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="total-area">
-                                        <h2 class="fs-43">Booking Total</h2>
-                                        <div class="detail">
-                                            <p>Booking Price</p>
-                                            <p>$00.00</p>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Your Phone">
                                         </div>
-                                        <div class="detail">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="driver">
-                                                <label for="driver">Driver</label>
-                                            </div>
-                                            <p>$40/Day</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
                                         </div>
-                                        <div class="detail">
-                                            <p>Sub Total</p>
-                                            <p>$00.00</p>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="date" class="form-control" id="date1" name="date1" required onchange="calculateBookingTotal()">
                                         </div>
-                                        <div class="detail">
-                                            <p>Grand Total</p>
-                                            <p>$00.00</p>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="date" class="form-control" id="date2" name="date2" required onchange="calculateBookingTotal()">
                                         </div>
-                                        <a href="" class="dark-btn w-100">Confirm Booking</a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group mb-24">
+                                            <select class="form-control" id="location" name="location">
+                                                <option value="">Choose Pickup Location</option>
+                                                <option value="location1">Location 1</option>
+                                                <option value="location2">Location 2</option>
+                                                <option value="location3">Location 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" required name="message" placeholder="Your Message"></textarea>
+                                        </div>
                                     </div>
                                 </div>
+                                <div id="message" class="alert-msg"></div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="total-area">
+                                <h2 class="fs-43">Booking Total</h2>
+                                <div class="detail" id="bookingPriceDetail" style="display: none;">
+                                    <p>Booking Price</p>
+                                    <p id="bookingPrice">$00.00</p>
+                                </div>
+                                <div class="detail">
+                                    <p>Number of Days</p>
+                                    <p id="numberOfDays">0</p>
+                                </div>
+                                <div class="detail">
+                                    <p>Sub Total</p>
+                                    <p id="subTotal">$00.00</p>
+                                </div>
+                                <div class="detail">
+                                    <p>Grand Total</p>
+                                    <p id="grandTotal">$00.00</p>
+                                </div>
+                                <a href="" class="dark-btn w-100">Confirm Booking</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- booking total Area end -->
+    </div>
+</div>
+<!-- booking total Area end -->
+
 
         <!-- footer Area start -->
         <footer class="footer pt-50">
@@ -308,6 +311,24 @@
         <script src="assets/js/vendor/jquery-validator.js"></script>
         <!-- Site Scripts -->
         <script src="assets/js/app.js"></script>
+        <script>
+            function calculateBookingTotal() {
+                var date1 = new Date(document.getElementById("date1").value);
+                var date2 = new Date(document.getElementById("date2").value);
+                var differenceInTime = date2.getTime() - date1.getTime();
+                var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+        
+                var pricePerDay = 80; // Change this value to the actual price per day
+                var bookingPrice = pricePerDay * differenceInDays;
+                var subTotal = bookingPrice;
+                var grandTotal = subTotal;
+        
+                document.getElementById("numberOfDays").textContent = differenceInDays;
+                document.getElementById("bookingPrice").textContent = "$" + bookingPrice.toFixed(2);
+                document.getElementById("subTotal").textContent = "$" + subTotal.toFixed(2);
+                document.getElementById("grandTotal").textContent = "$" + grandTotal.toFixed(2);
+            }
+        </script>
 </body>
 
 </html>
