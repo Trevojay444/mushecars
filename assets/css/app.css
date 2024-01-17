@@ -1338,9 +1338,9 @@ strong {
   color: #FAFAFA;
 }
 .dark-btn.active {
-  background: #FAFAFA;
+  background: #ec1c24 ;
   color: #2C2D2F;
-  border: 1px solid #FAFAFA;
+  border: 1px solid #FAFAFA ;
 }
 .dark-btn.active:hover {
   background: #2C2D2F;
