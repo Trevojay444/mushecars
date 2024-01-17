@@ -3697,7 +3697,7 @@ nav .navbar-toggler:focus {
   position: absolute; /* Position the sub-menu absolutely */
   top: 100%; /* Position it below the parent menu item */
   left: 0;
-  background-color: #272262;
+  background-color: #f6f6f8;
   padding: 10px;
   margin-top: 5px; /* Add margin to create space between the menu items */
 }
