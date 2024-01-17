@@ -3689,17 +3689,17 @@ nav .navbar-toggler:focus {
 }
 
 .menu-item-has-children {
-  position: relative; /* Add relative positioning to the parent menu item */
+  position: relative;
 }
 
 .sub-menu {
   display: none;
-  position: absolute; /* Position the sub-menu absolutely */
-  top: 100%; /* Position it below the parent menu item */
+  position: absolute;
+  top: 100%;
   left: 0;
   background-color: #f6f6f8;
   padding: 10px;
-  margin-top: 5px; /* Add margin to create space between the menu items */
+  margin-top: 5px;
 }
 
 .menu-item-has-children:hover .sub-menu {
@@ -3708,4 +3708,21 @@ nav .navbar-toggler:focus {
 
 .sub-menu li:hover {
   background-color: #faf6f6;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 767px) {
+  .menu-item-has-children {
+    position: static;
+  }
+  
+  .sub-menu {
+    position: static;
+    display: block;
+    margin-top: 0;
+  }
+  
+  .sub-menu li:hover {
+    background-color: transparent;
+  }
 }
