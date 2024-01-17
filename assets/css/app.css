@@ -1329,8 +1329,8 @@ strong {
 
 .dark-btn {
   padding: 12px 32px;
-  background: #2C2D2F;
-  border: 1px solid #2C2D2F;
+  background:#ec1c24  ;
+  border: 1px solid#ec1c24  ;
   border-radius: 50px;
   font-weight: 700;
   font-size: 21px;
@@ -2009,7 +2009,7 @@ nav .navbar-toggler:focus {
   font-size: 20px;
   line-height: 160%;
   letter-spacing: 0.05em;
-  color:#080808;
+  color: #080808 ;
   margin-bottom: 30px;
 }
 @media (max-width: 768px) {
