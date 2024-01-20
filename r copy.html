@@ -126,7 +126,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24">
+                                    <div class="item-list mb-24" id="cx5" >
                                         <img src="./assets/media/car-image/cx5 image.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
@@ -158,11 +158,11 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24">
+                                    <div class="item-list mb-24"id="mini-bus" >
                                         <img src="./assets/media/car-image/hiace  image.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
-                                                <h5>Porsche GT2</h5>
+                                                <h5>Mini bus</h5>
                                                 <p><b>$120</b> / Day</p>
                                             </div>
                                             <div class="detail">
@@ -190,7 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24">
+                                    <div class="item-list mb-24" id="honda-fit-1">
                                         <img src="./assets/media/car-image/Honda  new image.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
@@ -222,7 +222,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24">
+                                    <div class="item-list mb-24" id="nissan-note" >
                                         <img src="./assets/media/car-image/missan note.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
@@ -254,7 +254,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24 mb-lg-0">
+                                    <div class="item-list mb-24 mb-lg-0" id="nissan-xtrail">
                                         <img src="./assets/media/car-image/Nissan xtrail.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
@@ -286,7 +286,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="item-list mb-24">
+                                    <div class="item-list mb-24" id="honda-fit-2">
                                         <img src="./assets/media/car-image/honda fit 2011a.png" alt="">
                                         <div class="detail-block">
                                             <div class="detail">
@@ -381,7 +381,7 @@
                                     <option value="60">60%</option>
                                     <option value="50">50%</option>
                                 </select>
-                                <button onclick="searchCars()" class="btn btn-primary">Search</button>
+                                <button id="search-btn" onclick="searchCars()" class="btn btn-primary">Search</button>
                             </div>
                         </div>
                         
@@ -453,23 +453,52 @@
             <script src="assets/js/vendor/jquery-appear.js"></script>
             <script src="assets/js/vendor/sal.js"></script>
             <script src="assets/js/vendor/jquery-validator.js"></script>
-            <script>
-                function searchCars() {
-                    var selectedCompany = document.getElementById('car-company').value;
-                    var selectedCapacity = document.getElementById('seating-capacity').value;
-                    var selectedPrice = document.getElementById('price').value;
-                    var selectedRating = document.getElementById('rating').value;
-            
-                    // Perform search operations based on selected criteria
-                    // Example: Display search results or make an AJAX request to a server
-                    console.log("Car Company: " + selectedCompany);
-                    console.log("Seating Capacity: " + selectedCapacity);
-                    console.log("Price: " + selectedPrice);
-                    console.log("Rating: " + selectedRating);
-                }
             </script>
             <!-- Site Scripts -->
             <script src="assets/js/app.js"></script>
+            
+         <script>
+          function searchCars() {
+                // Retrieve selected values
+                var selectedCarCompany = document.getElementById('car-company').value;
+                var selectedSeatingCapacity = document.getElementById('seating-capacity').value;
+                var selectedPrice = document.getElementById('price').value;
+                var selectedRating = document.getElementById('rating').value;
+              
+                // Loop through car items
+                var carItems = document.getElementsByClassName('item-list');
+                for (var i = 0; i < carItems.length; i++) {
+                  var carItem = carItems[i];
+                  var carId = carItem.getAttribute('id');
+              
+                  // Reset previous filtering by removing the CSS class 'hidden'
+                  carItem.classList.remove('hidden');
+              
+                  // Filter by car company
+                  if (selectedCarCompany && !carId.includes(selectedCarCompany)) {
+                    carItem.classList.add('hidden');
+                  }
+              
+                  // Filter by seating capacity
+                  var carCapacity = carItem.querySelector('.detail:nth-child(2) p:last-child').textContent;
+                  if (selectedSeatingCapacity && carCapacity !== selectedSeatingCapacity + ' Person') {
+                    carItem.classList.add('hidden');
+                  }
+              
+                  // Filter by price
+                  var carPrice = parseInt(carItem.querySelector('.detail:nth-child(1) b').textContent);
+                  if (selectedPrice && carPrice !== parseInt(selectedPrice)) {
+                    carItem.classList.add('hidden');
+                  }
+              
+                  // Filter by rating
+                  var carRating = carItem.querySelector('.detail:last-child p:last-child').textContent;
+                  if (selectedRating && parseInt(carRating) !== parseInt(selectedRating)) {
+                    carItem.classList.add('hidden');
+                  }
+                }
+              }
+            </script>
     </body>
 
 </html>
