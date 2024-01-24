@@ -3894,9 +3894,9 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
   height : 800px;
-  width: 1200px;
+  width: 1100px;
   border-radius: 30px;
-  background-color: #272262 ;
+  background-color: #ec1c24 ;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3904,7 +3904,7 @@ p {
 .kadi .primary-heading {
   text-align: center;
   font-family: josefin sans;
-  color: white;
+  color: #272262;
   padding-top: 50px ;
   font-size: 4em;
 }
@@ -3915,7 +3915,7 @@ p {
   margin-left: 50px;
   margin-right: 25px;
   padding-top: 50px;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.3em;
   font-weight: 500;
 }
@@ -3938,7 +3938,7 @@ p {
   .kadi {
       margin-top: 100px;
       margin-bottom: 100px;
-      height : 2050px;
+      height : 1000px;
       width: 1000px;
       border-radius: 30px;
       background-color: #fcfcfd;
@@ -3951,7 +3951,7 @@ p {
   .kadi {
       margin-top: 100px;
       margin-bottom: 100px;
-      height : 2350px;
+      height : 1000px;
       width: 800px;
       border-radius: 30px;
       background-color: #f3f4f8;
@@ -3964,7 +3964,7 @@ p {
   .kadi {
       margin-top: 100px;
       margin-bottom: 100px;
-      height : 2950px;
+      height : 1000px;
       width: 600px;
       border-radius: 30px;
       background-color: #f4f4f7;
