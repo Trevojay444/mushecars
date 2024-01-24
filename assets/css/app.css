@@ -3945,8 +3945,8 @@ p {
 
 @media only screen and (max-width: 1012px) {
   .kadi {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 1100px;
     width: 800px;
   }
