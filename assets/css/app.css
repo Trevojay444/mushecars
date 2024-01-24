@@ -3893,25 +3893,25 @@ p {
 .kadi {
   margin-top: 20px;
   margin-bottom: 20px;
-  height : 800px;
+  height: 800px;
   width: 1100px;
   border-radius: 30px;
-  background-color: #ec1c24 ;
+  background-color: #ec1c24;
   margin-left: auto;
   margin-right: auto;
 }
 
 .kadi .primary-heading {
   text-align: center;
-  font-family: josefin sans;
+  font-family: 'josefin sans', sans-serif;
   color: #272262;
-  padding-top: 50px ;
+  padding-top: 50px;
   font-size: 4em;
 }
 
 .paragraph {
-  font-family: josefin sans;
-  color: rgb(236, 28, 36);
+  font-family: 'josefin sans', sans-serif;
+  color: #ec1c24;
   margin-left: 50px;
   margin-right: 25px;
   padding-top: 50px;
@@ -3927,7 +3927,7 @@ p {
 
 .footer-heading {
   text-align: center;
-  font-family: josefin sans;
+  font-family: 'josefin sans', sans-serif;
   color: white;
   margin-bottom: 50px;
   font-size: 2em;
@@ -3936,109 +3936,85 @@ p {
 
 @media only screen and (max-width: 1218px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 1000px;
-      width: 1000px;
-      border-radius: 30px;
-      background-color: #ec1c24;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1000px;
+    width: 1000px;
   }
 }
 
 @media only screen and (max-width: 1012px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 1000px;
-      width: 800px;
-      border-radius: 30px;
-      background-color:#ec1c24 ;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1000px;
+    width: 800px;
   }
 }
 
 @media only screen and (max-width: 832px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 1000px;
-      width: 600px;
-      border-radius: 30px;
-      background-color:#ec1c24 ;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1000px;
+    width: 600px;
   }
+
   .kadi .primary-heading {
-      font-size: 3.5em;
+    font-size: 3.5em;
   }
 
   .footer-heading {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
 @media only screen and (max-width: 626px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 3850px;
-      width: 450px;
-      border-radius: 30px;
-      background-color: #ec1c24;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 3850px;
+    width: 450px;
   }
 
   .header-mobile {
-      display: block;
+    display: block;
   }
 
   .main-header {
-      display: none;
+    display: none;
   }
 
   .kadi .primary-heading {
-      font-size: 3em;
+    font-size: 3em;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 5050px;
-      width: 350px;
-      border-radius: 30px;
-      background-color: #ec1c24;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 5050px;
+    width: 350px;
   }
 
   .kadi .primary-heading {
-      font-size: 2em;
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 365px) {
   .kadi {
-      margin-top: 100px;
-      margin-bottom: 100px;
-      height : 300px;
-      width: 290px;
-      border-radius: 30px;
-      background-color:#ec1c24;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 290px;
   }
 
   .kadi .primary-heading {
-      font-size: 2em;
+    font-size: 2em;
   }
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 
