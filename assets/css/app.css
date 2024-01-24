@@ -3889,3 +3889,219 @@ p {
     max-width: 33.33%;
   }
 }
+
+.kadi {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height : 800px;
+  width: 1200px;
+  border-radius: 30px;
+  background-color: #272262 ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kadi .primary-heading {
+  text-align: center;
+  font-family: josefin sans;
+  color: white;
+  padding-top: 50px ;
+  font-size: 4em;
+}
+
+.paragraph {
+  font-family: josefin sans;
+  color: rgb(236, 28, 36);
+  margin-left: 50px;
+  margin-right: 25px;
+  padding-top: 50px;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+  color: white;
+}
+
+.footer-heading {
+  text-align: center;
+  font-family: josefin sans;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 2em;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 1218px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 2050px;
+      width: 1000px;
+      border-radius: 30px;
+      background-color: #fcfcfd;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1012px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 2350px;
+      width: 800px;
+      border-radius: 30px;
+      background-color: #f3f4f8;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 832px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 2950px;
+      width: 600px;
+      border-radius: 30px;
+      background-color: #f4f4f7;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .kadi .primary-heading {
+      font-size: 3.5em;
+  }
+
+  .footer-heading {
+      font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 626px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 3850px;
+      width: 450px;
+      border-radius: 30px;
+      background-color: #f9f9fa;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .header-mobile {
+      display: block;
+  }
+
+  .main-header {
+      display: none;
+  }
+
+  .kadi .primary-heading {
+      font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 5050px;
+      width: 350px;
+      border-radius: 30px;
+      background-color: #f9f9fc;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .kadi .primary-heading {
+      font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .kadi {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height : 6300px;
+      width: 290px;
+      border-radius: 30px;
+      background-color: #fbfbfd;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .kadi .primary-heading {
+      font-size: 2em;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+
+.accordion-item {
+    background-color: #FFFFFF; /* White background for items */
+    border: 1px solid #E0E0E0; /* Light border */
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Softer shadow */
+}
+
+.accordion-header {
+    background-color: #6C63FF; /* Soft purple */
+    color: #FFFFFF; /* White text */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #5753C9; /* Darker shade of purple */
+}
+
+.accordion-content {
+    background-color: #FAFAFA; /* Very light grey for content */
+    overflow: hidden;
+    padding: 0 15px;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.ikon {
+    transition: transform 0.3s ease;
+}
+
+.active .ikon {
+    transform: rotate(45deg);
+}
+
+accordion-container {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin-top: 20px !important;
+ margin-bottom: 20px !important;
+}

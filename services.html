@@ -112,7 +112,7 @@
             <!-- inner banner Area end -->
 
             <!-- Service Area start -->
-            <section class="book pt-50 pb-50">
+            <section class="book pt-50 pb-50"style="margin-top: 10px; margin-bottom: 40px;">
                 <div class="container">
                     <div class="heading left">
                         <h2>Our Services</h2>
@@ -196,8 +196,94 @@
                   </div>
                 </div>
               </sekisheni>
+
+              <!-- T&C  Area start -->
+              <section class="book pt-50 pb-50">
+                <div class="container">
+                    <div class="heading left">
+                        <h2>T & C's</h2>
+                        <p>Explore Mushe Car Rental’s popular range of products.</p>
+                    </div>
+                </div>
+            <sekisheni>
+              <section id="terms-of-service">
+                <div class="kadi">
+                  <h1 class="primary-heading">Terms of Service</h1>
+                  <div class="paragraph">
+                    <p>
+                        Daily rate includes 200km free
+                        2 year old driver's license
+                        Secondary form of ID
+                        Proof of residence
+                        Driver should be 25 years and above
+                        Extra mileage at $0.40 per km 
+                         
+                        
+                    <p>
+                      2) 2 Year Old Drivers Licence <span class="bold">strictly prohibited</span>. If anyone is found conducting such acts, they will be <span class="bold">banned</span> from the beCoditive API and legal action will be taken against them.<br><br>
+                    </p>
+                    <p>
+                      3) beCoditive API provides <span class="bold">ONE</span> API key to each person. Trying to generate fake API keys is strictly <span class="bold">prohibited</span> and this act will result in <span class="bold">banning</span> of the person.<br><br>
+                    </p>
+                    <p>
+                      4) beCoditive API is <span class="bold">copyrighted</span> and if any acts of <span class="bold">plagiarism</span> are discovered, legal action will be taken against the offender.<br><br>
+                    </p>
+                    <p>
+                      5) Flooding beCoditive API with false requests and false complaints is <span class="bold">strictly prohibited</span>.<br><br>
+                    </p>
+                    <p>
+                      6) Registration Data and certain other information about you <span class="bold">is subject</span> to our Privacy Policy.<br><br>
+                    </p>
+                    <p>
+                      7) You expressly <span class="bold">understand</span> and <span class="bold">agree</span> that beCoditive and its subsidiaries, affiliates, officers, employees, agents, partners and licensors shall not be liable to you for any direct, indirect, incidental, special, consequential or exemplary damages, including, but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if beCoditive has been advised of the possibility of such damages), resulting from the use or the inability to use beCoditive API.<br><br>
+                    </p>
+                    
+                  </div>
+                </div>
+              </section>
+
+              <!-- faAQS Area start -->
+              <section class="book pt-50 pb-50">
+              <div class="container">
+                  <div class="heading left">
+                      <h2>FAQs</h2>
+                      <p>Explore Mushe Car Rental’s popular range of products.</p>
+                  </div>
+              </div>
+              <div class="accordion-container" style="margin-top: 10px; margin-bottom: 40px;">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        How old do you have to be to rent a car? <span class="ikon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Answer to question 1...</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        FAQ Question 2 <span class="ikon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Answer to question 2...</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        FAQ Question 3 <span class="ikon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Answer to question 3...</p>
+                    </div>
+                </div>
+            </div>
+             <!-- faAQS Area start -->
+
+
+
+              
+            
                <!-- logo Area start -->
-            <div class="logo position-relative">
+            <div class="logo position-relative"style="margin-top: 20px; margin-bottom: 40px;" >
                 <img src="./assets/media/arrow-line.png" class="position-absolute top-0 start-0" alt="">
                 <div class="container pt-1">
                     <div class="logo-slider pt-100">
@@ -221,7 +307,6 @@
                 </div>
             </div>
             <!-- logo Area end -->
-
 
             <!-- footer Area start -->
             <footer class="footer pt-50">
@@ -279,17 +364,28 @@
             <script src="assets/js/app.js"></script>
 
             <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                  const faqQuestions = document.querySelectorAll('.faq-question');
-              
-                  faqQuestions.forEach(function(question) {
-                    question.addEventListener('click', function() {
-                      const answer = this.querySelector('.faq-answer');
-                      answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                document.querySelectorAll('.accordion-header').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const accordionContent = button.nextElementSibling;
+                
+                        button.classList.toggle('active');
+                
+                        if (button.classList.contains('active')) {
+                            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                        } else {
+                            accordionContent.style.maxHeight = 0;
+                        }
+                
+                        // Close other open accordion items
+                        document.querySelectorAll('.accordion-header').forEach(otherButton => {
+                            if (otherButton !== button) {
+                                otherButton.classList.remove('active');
+                                otherButton.nextElementSibling.style.maxHeight = 0;
+                            }
+                        });
                     });
-                  });
                 });
-              </script>
+                </script>
 
     </body>
 
