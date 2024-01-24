@@ -4053,7 +4053,7 @@ p {
 }
 
 .accordion-header {
-    background-color: #6C63FF; /* Soft purple */
+    background-color:#272262 ; /* Soft purple */
     color: #FFFFFF; /* White text */
     padding: 15px;
     font-size: 18px;
@@ -4070,7 +4070,7 @@ p {
 }
 
 .accordion-header:hover {
-    background-color: #5753C9; /* Darker shade of purple */
+    background-color:#272262 ; /* Darker shade of purple */
 }
 
 .accordion-content {
