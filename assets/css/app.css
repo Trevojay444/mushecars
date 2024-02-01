@@ -3909,10 +3909,15 @@ accordion-container {
 
 
 
+  .card-space {
+    display: block;
+  }
+
+
 
 
 .deck{
-  display: flex;
+  display: block;
 }
 
 
@@ -3924,7 +3929,7 @@ accordion-container {
   border-radius: 10px;
   height: 300px;
   margin: 10px;
-  width: 550px;
+  width: 1100px;
   position: relative;
   transform-style: preserve-3d;
   transition: all duration ease;
