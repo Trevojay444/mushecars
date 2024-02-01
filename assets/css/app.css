@@ -3915,7 +3915,7 @@ accordion-container {
   display: flex;
 }
 
-.deck .card-space{
+.card-space{
 }
 
 .card-space:hover .card{
