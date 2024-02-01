@@ -4048,3 +4048,38 @@ accordion-container {
 }
 
 /* Responsive styles */
+@media screen and (max-width: 768px) {
+  #wangu .member h4 {
+    font-size: 18px;
+  }
+
+  #wangu .member span {
+    font-size: 14px;
+  }
+
+  #wangu .member .social {
+    margin-top: 10px;
+  }
+
+  #wangu .member .social i {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #wangu .member h4 {
+    font-size: 16px;
+  }
+
+  #wangu .member span {
+    font-size: 12px;
+  }
+
+  #wangu .member .social {
+    margin-top: 5px;
+  }
+
+  #wangu .member .social i {
+    font-size: 14px;
+  }
+}
