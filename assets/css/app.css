@@ -4083,3 +4083,22 @@ accordion-container {
     font-size: 14px;
   }
 }
+
+/* Responsive styles for tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #wangu .member h4 {
+    font-size: 16px;
+  }
+
+  #wangu .member span {
+    font-size: 14px;
+  }
+
+  #wangu .member .social {
+    margin-top: 7px;
+  }
+
+  #wangu .member .social i {
+    font-size: 15px;
+  }
+}
