@@ -4028,7 +4028,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #wangu .member:hover .member-info {
-  background-color: #f5f4f8;
+  background: rgba(245, 245, 247, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
@@ -4041,15 +4041,15 @@ h1, h2, h3, h4, h5, h6{
 #wangu .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
-  color: #ec1c24 ;
+  font-size: 20px;
+  color:#ec1c24 ;
 }
 
 #wangu .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
-  color:#ec1c24  ;
+  font-size: 16px;
+  color: #ec1c24 ;
 }
 
 #wangu .member .social {
