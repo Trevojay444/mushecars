@@ -3915,8 +3915,6 @@ accordion-container {
   display: flex;
 }
 
-.card-space{
-}
 
 .card-space:hover .card{
   transform: rotateY(-180deg);
@@ -4050,40 +4048,3 @@ accordion-container {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  #wangu .member h4 {
-    font-size: 18px;
-  }
-
-  #wangu .member span {
-    font-size: 14px;
-  }
-
-  #wangu .member .social {
-    margin-top: 10px;
-  }
-
-  #wangu .member .social i {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Adjustments for even smaller screens */
-  #wangu .member h4 {
-    font-size: 16px;
-  }
-
-  #wangu .member span {
-    font-size: 12px;
-  }
-
-  #wangu .member .social {
-    margin-top: 5px;
-  }
-
-  #wangu .member .social i {
-    font-size: 14px;
-  }
-}
