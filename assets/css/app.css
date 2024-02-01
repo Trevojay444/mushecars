@@ -4022,6 +4022,7 @@ h1, h2, h3, h4, h5, h6{
   transition: 0.2s;
 }
 
+/* Default styles */
 #wangu .member .member-info-content {
   margin-top: 10px;
   transition: margin 0.2s;
@@ -4042,14 +4043,14 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 20px;
-  color:#ec1c24 ;
+  color: #ec1c24;
 }
 
 #wangu .member span {
   font-style: italic;
   display: block;
   font-size: 16px;
-  color: #ec1c24 ;
+  color: #ec1c24;
 }
 
 #wangu .member .social {
@@ -4058,14 +4059,53 @@ h1, h2, h3, h4, h5, h6{
 
 #wangu .member .social a {
   transition: none;
-  color: #ec1c24 ;
+  color: #ec1c24;
 }
 
 #wangu .member .social a:hover {
-  color: #f9f9fa ;
+  color: #f9f9fa;
 }
 
 #wangu .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #wangu .member h4 {
+    font-size: 18px;
+  }
+
+  #wangu .member span {
+    font-size: 14px;
+  }
+
+  #wangu .member .social {
+    margin-top: 10px;
+  }
+
+  #wangu .member .social i {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for even smaller screens */
+  #wangu .member h4 {
+    font-size: 16px;
+  }
+
+  #wangu .member span {
+    font-size: 12px;
+  }
+
+  #wangu .member .social {
+    margin-top: 5px;
+  }
+
+  #wangu .member .social i {
+    font-size: 14px;
+  }
 }
