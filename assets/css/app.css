@@ -3909,35 +3909,13 @@ accordion-container {
 
 
 
-.body{
-  background-color: bg;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-}
 
-h1, h2, h3, h4, h5, h6{
-  font-family: "Bitter", serif;
-}
-
-
-
-
-.body{
-  display: grid;
-  height: 100vh;
-  grid-template-rows: 1fr 50px;
-  justify-items: center;
-  align-items: center;
-  -webkit-perspective: 2000px;
-  perspective: 2000px;
-  
-}
 
 .deck{
   display: flex;
 }
 
-.card-space{
+.deck .card-space{
 }
 
 .card-space:hover .card{
@@ -3948,7 +3926,7 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 10px;
   height: 300px;
   margin: 10px;
-  width: 600px;
+  width: 550px;
   position: relative;
   transform-style: preserve-3d;
   transition: all duration ease;
@@ -3956,7 +3934,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 5px;
   }
   & p{
-    margin-top: 0px;
+    margin-top: 5px;
   }
 }
 
@@ -3964,7 +3942,7 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 10px;
   box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
   & h1{
-    padding: 0;
+    padding: 5;
   }
   background-color: lighten(bg, 5%);
   padding: 20px;
